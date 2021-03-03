@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Разделы"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/bookmarkFragment"
+        android:title="Закладки"
+        android:icon="@drawable/ic_bookmark"/>
+
+    <item
+        android:id="@+id/testFragment"
+        android:title="Тест"
+        android:icon="@drawable/ic_test"/>
+
+    <item
+        android:id="@+id/testScoreFragment"
+        android:title="Результаты теста"
+        android:icon="@drawable/ic_check"/>
+</menu>

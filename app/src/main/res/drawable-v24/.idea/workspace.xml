@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d877c8c6-14f3-4509-adb5-75368fce7512" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/ru/startandroid/develop/javatutorial/fragment/ShowBookMarkFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/fragment_show_book_mark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/ru/startandroid/develop/database/ChapterDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/ru/startandroid/develop/database/ChapterDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/ru/startandroid/develop/database/ChapterRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/ru/startandroid/develop/database/ChapterRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/ru/startandroid/develop/database/ChapterViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/ru/startandroid/develop/database/ChapterViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/ru/startandroid/develop/javatutorial/adapter/BookMarkAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/ru/startandroid/develop/javatutorial/adapter/BookMarkAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/ru/startandroid/develop/javatutorial/fragment/BookmarkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/ru/startandroid/develop/javatutorial/fragment/BookmarkFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/ru/startandroid/develop/javatutorial/model/Chapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/ru/startandroid/develop/javatutorial/model/Chapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/item_bookmark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/item_bookmark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/my_nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../navigation/my_nav.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1onse22uxn68B1I66b2V6RJmohc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d877c8c6-14f3-4509-adb5-75368fce7512" name="Default Changelist" comment="" />
+      <created>1613933780594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613933780594</updated>
+    </task>
+    <servers />
+  </component>
+</project>

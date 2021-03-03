@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ru.startandroid.develop.javatutorial.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_chapterFragment"
+            app:destination="@id/chapterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chapterFragment"
+        android:name="ru.startandroid.develop.javatutorial.fragment.ChapterFragment"
+        android:label="fragment_chapter"
+        tools:layout="@layout/fragment_chapter">
+        <argument
+            android:name="chapterId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="ru.startandroid.develop.javatutorial.fragment.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" >
+        <argument android:name="BookMarkFragment" />
+        <action
+            android:id="@+id/action_bookmarkFragment_to_chapterFragment"
+            app:destination="@id/chapterFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="ru.startandroid.develop.javatutorial.fragment.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" >
+
+        <action
+            android:id="@+id/action_testFragment_to_takeTheTestFragment"
+            app:destination="@id/takeTheTestFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testScoreFragment"
+        android:name="ru.startandroid.develop.javatutorial.fragment.TestScoreFragment"
+        android:label="fragment_test_score"
+        tools:layout="@layout/fragment_test_score" />
+    <fragment
+        android:id="@+id/takeTheTestFragment"
+        android:name="ru.startandroid.develop.javatutorial.fragment.TakeTheTestFragment"
+        android:label="TakeTheTestFragment" >
+        <argument
+            android:name="testId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_takeTheTestFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <argument
+            android:name="name_test"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="ru.startandroid.develop.javatutorial.fragment.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="id_result"
+            app:argType="string" />
+        <argument
+            android:name="total_questions"
+            app:argType="integer" />
+        <argument
+            android:name="score_test"
+            app:argType="integer" />
+        <argument android:name="name_test"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_resultFragment_to_testFragment"
+            app:destination="@id/testFragment" />
+    </fragment>
+</navigation>
